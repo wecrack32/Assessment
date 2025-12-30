@@ -3,7 +3,7 @@ const { registerUser } = require("../controller/Register.controller");
 const {
   getDashboardStats,
   getAllRegistrations,
-} = require("../controller/admin.controller");
+} = require("../controller/Admin.controller");
 
 const router = express.Router();
 
